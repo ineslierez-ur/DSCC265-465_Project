@@ -9,3 +9,4 @@
 - Data: https://www.kaggle.com/datasets/johnjdavisiv/us-counties-covid19-weather-sociohealth-data?select=us_county_sociohealth_data.csv
 - Prospectus: https://www.overleaf.com/project/62559d713c555daadf3f6af3
 - Report: https://www.overleaf.com/project/62559e663c555deed63f820c
+- Google Drive: https://drive.google.com/drive/folders/1Lsef-iShZQcJxHU4CNd_gvUQ7RC_1RUk?usp=sharing
