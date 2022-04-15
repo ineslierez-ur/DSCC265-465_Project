@@ -1,7 +1,7 @@
 # DSCC 265/465 final project
 
 ## Dates
-- Prospectus: Friday, April 15 (04/15), 11:59 PM
+- Prospectus: Saturday, April 16 (04/16), 11:59 PM
 - Presentation: Sunday, April 24 (04/24), 11:59 PM
 - Report: Monday, May 2 (05/02), 11:59 PM
 
