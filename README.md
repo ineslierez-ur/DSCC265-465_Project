@@ -10,15 +10,15 @@ Overleaf link for the prospectus: https://www.overleaf.com/4998658811fkkbzhpmkqb
 
 Overleaf link for the report: https://www.overleaf.com/2164117668xqszsnhmshys
 
-## Pre-Analysis
+## Pre-Analysis:
 
 ### Exploring the data.ipynb
 
 We explore possible data sets available and explore the data set of our choice. We plot correlation matrices.
 
-## Explanatory Analysis
+## Explanatory Analysis:
 
-## Predictive Models
+## Predictive Models:
 
 ### Prediction_Part1_data_preparation_pre_analysis.ipynb
 
