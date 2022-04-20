@@ -27,6 +27,6 @@ Please, write a short summary of what each notebook does here.
 
 This is the initial notebook used before starting the predictive analysis. Here, we realize that we should be replacing the missing values in the data with mean or median.
 
-### Prediction_Part1_data_preparation_pre_analysis.ipynb
+### Prediction_Part1_data_preparation.ipynb
 
 This is the notebook that returns the data set that is ready to being used for predictive models. The data here is normalized and also involves columns returned by the dimensionality reduction methods of PCA, spectral embedding, and t-SNE.
