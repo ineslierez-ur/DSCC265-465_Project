@@ -13,7 +13,7 @@
 
 ## Pre-Analysis:
 
-### Explore the data.ipynb
+### Exploring the data.ipynb
 
 This is a Jupyter notebook we have used to explore the possible data sets we have found and to familiarize ourselves with them. 
 
