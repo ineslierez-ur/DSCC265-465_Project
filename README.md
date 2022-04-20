@@ -12,8 +12,9 @@ Overleaf link for the report: https://www.overleaf.com/2164117668xqszsnhmshys
 
 ## Pre-Analysis
 
-### 
+### Exploring the data.ipynb
 
+We explore possible data sets available and explore the data set of our choice. We plot correlation matrices.
 
 ## Explanatory Analysis
 
