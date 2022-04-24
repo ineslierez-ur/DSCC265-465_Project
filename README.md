@@ -22,7 +22,7 @@ We explore possible data sets available and explore the data set of our choice. 
 
 ### Data_sets.ipynb
 
-The input is the data file returned by the explanatory analysis. The outputs are 5 versions of the data: 'X_same_notnormalized.csv' is the given data without location, 'X_same_notnormalized_withlocation.csv'is the given data with location, 'X_same.csv’ is the given data without location but normalized, 'X_same_with_pcs.csv' is the given data without location but normalized and includes principal components, 'X_same_with_location.csv' is 'X_same.csv’ with location. 
+The input is the data file returned by the explanatory analysis. The outputs are 5 versions of the data: 'X_same_notnormalized.csv' is the given data without location, 'X_same_notnormalized_withlocation.csv'is the given data with location, 'X_same.csv’ is the given data without location but normalized, 'X_same_with_pcs.csv' is the given data without location but normalized and includes principal components, 'X_same_with_location.csv' is 'X_same.csv’ with location. Actually, 'X_same_with_pcs.csv’ is produced later by Prediction_Part1_data_preparation_same.ipynb notebook.
 
 For part 1, the data sets used are: **'X_same_with_pcs.csv’, 'X_same_with_location.csv', and the raw data from Kaggle.**
 
