@@ -18,6 +18,17 @@ We explore possible data sets available and explore the data set of our choice. 
 
 ## 1) Explanatory Analysis:
 
+## 2) Predictive Models:
+
+### Data_sets.ipynb
+
+The input is the data file returned by the explanatory analysis. The outputs are 5 versions of the data: 'X_same_notnormalized.csv' is the given data without location, 'X_same_notnormalized_withlocation.csv'is the given data with location, 'X_same.csv’ is the given data without location but normalized, 'X_same_with_pcs.csv' is the given data without location but normalized and includes principal components, 'X_same_with_location.csv' is 'X_same.csv’ with location. 
+
+For part 1, the data sets used are: **'X_same_with_pcs.csv’, 'X_same_with_location.csv', and the raw data from Kaggle.**
+
+For part 2, the data sets used are: **'X_same_notnormalized.csv’, and 'X_same_notnormalized_withlocation.csv'.**
+
+
 ## 2.1) Predictive Models Part 1:
 
 ## a) For same data:
