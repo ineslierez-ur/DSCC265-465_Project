@@ -41,7 +41,13 @@ We prepare the data for predictive analysis by adding the features obtained by d
 
 ### Prediction_Part1_ElasticNet_same.ipynb
 
-We perform ElasticNet regression with various cross validation techniques. We first try by including the dimensionality reduction vectors as features, and then, we try again without them.
+We perform ElasticNet regression with various cross validation techniques. We first try by including the dimensionality reduction vectors as features, and then, we try again without them. The best fit returned is stored in **'y_pred_same_withpcs_ElasticNet.csv'**.
+
+### Prediction_Part1_kNN_same.ipynb
+
+We perform k-Nearest Neighbor algorithm and tune the parameter k. The best fit returned is stored in **'y_pred_same_withpcs_kNN.csv'**.
+
+
 
 ## b) For same data but including location:
 
