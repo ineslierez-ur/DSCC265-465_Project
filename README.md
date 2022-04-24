@@ -53,6 +53,11 @@ We perform k-Nearest Neighbor algorithm and tune the parameter k. The best fit r
 
 In our analysis, we have realized that socioeconomic features used are actually location dependent. Therefore, in order to improve our predictions and to also have better use of the socioeconomic data we have, we turn the 'fips', 'state', and 'county' columns to numerical values and include them for our prediction models. This is a repetition of the above models but this time also including the location information. We expect to improve our predictions by doing so.
 
+### Prediction_Part1_data_preparation_same_withlocation.ipynb
+
+The above analysis repeated on the data that includes location features. The input file is 'X_same_with_location.csv' and the output file is **'X_same_with_location.csv'**. The output file becomes the input for all the following models.
+
+
 
 ## c) For raw data:
 
