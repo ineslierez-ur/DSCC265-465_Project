@@ -82,16 +82,14 @@ This notebook prepares the data to be fed into the predictive models that assume
 
 ## a) For same data:
 
-## Prediction_2_not_normalized_no_location.ipynb
-
+### Prediction_2_not_normalized_no_location.ipynb
 Not normalized features from EDA, with Ridge regression and Random Forest, metrics comparison are in the slides
 
-## prediction_2_normalized_no_location.ipynb
-
+### prediction_2_normalized_no_location.ipynb
 Normalized features from EDA, with Ridge regression and Random Forest, metrics comparison are in the slides
 
 ## b) For same data but including location:
 
-## prediction_2_not_normalized_with_location.ipynb
+### prediction_2_not_normalized_with_location.ipynb
 
 Not normalized data including features from EDA and location, with Ridge regression and Random Forest, metrics comparison are in the slides
