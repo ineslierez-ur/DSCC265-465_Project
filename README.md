@@ -18,7 +18,26 @@ We explore possible data sets available and explore the data set of our choice. 
 
 ## Explanatory Analysis:
 
-## Predictive Models:
+## Predictive Models Part 1:
+
+## For same data:
+
+We use the data cleaned by the explanatory analysis. So the features included are only the ones that have correlation less than 0.6 with one another. The location related columns are removed and the data is normalized. The input file name is **'X_same_with_pcs.csv'** and it is obtained by the preparing_data notebook.
+
+### Prediction_Part1_data_preparation_same.ipynb
+
+We prepare the data for predictive analysis by adding the features obtained by dimensionality reduction techniques of PCA, spectral embedding, and t-SNE. The output file is 'X_same_with_pcs.csv' and it becomes the input file for the rest of the analysis.
+
+### Prediction_Part1_ElasticNet_same.ipynb
+
+We perform ElasticNet regression with various cross validation techniques. We first try by including the dimensionality reduction vectors as features, and then, we try again without them.
+
+## For same data but including location:
+
+In our analysis, we have realized that socioeconomic features used are actually location dependent. Therefore, in order to improve our predictions and to also have better use of the socioeconomic data we have, we turn the 'fips', 'state', and 'county' columns to numerical values and include them for our prediction models. This is a repetition of the above models but this time also including the location information. We expect to improve our predictions by doing so.
+
+
+## For raw data:
 
 ### Prediction_Part1_data_preparation_pre_analysis.ipynb
 
@@ -28,4 +47,4 @@ While preparing the data before building accuracy-focused predictive models, we 
 
 This notebook prepares the data to be fed into the predictive models that assumes no prior knowledge or analysis about the data. The output files are the file that contains the target variable and the file that contains all the explanatory features. We also add columnsfor the 3 principal components returned by dimensionality methods including PCA, spectral embedding, and t-SNE.
 
-### Prediction_Part1_models.ipynb
+
