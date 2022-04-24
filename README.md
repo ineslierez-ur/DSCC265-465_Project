@@ -57,9 +57,15 @@ In our analysis, we have realized that socioeconomic features used are actually 
 
 The above analysis repeated on the data that includes location features. The input file is 'X_same_with_location.csv' and the output file is **'X_same_with_location.csv'**. The output file becomes the input for all the following models.
 
+### Prediction_Part1_ElasticNet_same_withlocation.ipynb
+
+The above analysis repeated for the data set that also contains location related features. The best fit returned is stored in **'y_pred_same_withpcs_withlocation_ElasticNet.csv'**.
+
 
 
 ## c) For raw data:
+
+Here, we start from the raw data on Kaggle and assume that no explanatory analysis was performed. We build prediction models without focusing on their interpretability.
 
 ### Prediction_Part1_data_preparation_pre_analysis.ipynb
 
@@ -67,7 +73,7 @@ While preparing the data before building accuracy-focused predictive models, we 
 
 ### Prediction_Part1_data_preparation.ipynb
 
-This notebook prepares the data to be fed into the predictive models that assumes no prior knowledge or analysis about the data. The output files are the file that contains the target variable and the file that contains all the explanatory features. We also add columnsfor the 3 principal components returned by dimensionality methods including PCA, spectral embedding, and t-SNE.
+This notebook prepares the data to be fed into the predictive models that assumes no prior knowledge or analysis about the data. The output files are the file that contains the target variable and the file that contains all the explanatory features: . We also add columnsfor the 3 principal components returned by dimensionality methods including PCA, spectral embedding, and t-SNE.
 
 ## 2.2) Predictive Models Part 2:
 
