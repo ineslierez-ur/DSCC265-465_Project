@@ -48,7 +48,6 @@ We perform ElasticNet regression with various cross validation techniques. We fi
 We perform k-Nearest Neighbor algorithm and tune the parameter k. The best fit returned is stored in **'y_pred_same_withpcs_kNN.csv'**.
 
 
-
 ## b) For same data but including location:
 
 In our analysis, we have realized that socioeconomic features used are actually location dependent. Therefore, in order to improve our predictions and to also have better use of the socioeconomic data we have, we turn the 'fips', 'state', and 'county' columns to numerical values and include them for our prediction models. This is a repetition of the above models but this time also including the location information. We expect to improve our predictions by doing so.
@@ -60,6 +59,10 @@ The above analysis repeated on the data that includes location features. The inp
 ### Prediction_Part1_ElasticNet_same_withlocation.ipynb
 
 The above analysis repeated for the data set that also contains location related features. The best fit returned is stored in **'y_pred_same_withpcs_withlocation_ElasticNet.csv'**.
+
+### Prediction_Part1_kNN_same_withlocation.ipynb
+
+The above analysis repeated for the data set that also contains location related features. The best fit returned is stored in **'y_pred_same_withpcs_withlocation_kNN.csv'**.
 
 
 
