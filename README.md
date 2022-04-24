@@ -47,6 +47,9 @@ We perform ElasticNet regression with various cross validation techniques. We fi
 
 We perform k-Nearest Neighbor algorithm and tune the parameter k. The best fit returned is stored in **'y_pred_same_withpcs_kNN.csv'**.
 
+### Prediction_Part1_NN_same.ipynb
+
+We apply NN with 3 layers. We tune the number of nodes for the intermediate layer. We repeat it without the principal components. The best fit returned is stored in **'y_pred_same_withpcs_NN.csv'**.
 
 ## b) For same data but including location:
 
@@ -64,7 +67,9 @@ The above analysis repeated for the data set that also contains location related
 
 The above analysis repeated for the data set that also contains location related features. The best fit returned is stored in **'y_pred_same_withpcs_withlocation_kNN.csv'**.
 
+### Prediction_Part1_NN_same_withlocation.ipynb
 
+We apply NN with 3 layers. We tune the number of nodes for the intermediate layer. We repeat it without the principal components. The best fit returned is stored in **'y_pred_same_withpcs_withlocation_NN.csv'**.
 
 ## c) For raw data:
 
