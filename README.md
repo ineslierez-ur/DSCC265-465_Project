@@ -118,10 +118,9 @@ This notebook prepares the data to be fed into the predictive models that assume
 
 Here, we combine the best models returned by each part of the predictive analysis to have even better predictions. We weight the prediction set returned by each method inversely with its RMSE value and take the weighted average. For part 1, the best models returned are for non-normalized data sets so we include them for the ensemble learning while for part 2, the best models returned are when we include PCs as features so we follow from them.
 
-## a) Without location:
+### Ensemble_learning.ipynb
 
-
-## a) With location:
+We take the weighted average of the returned predictions where the weight is the inverse of the RMSE. We see that ensemble learning made it worse for without location case, and when we include location, RMSE was slightly worse than the kNN with PCs. 
 
 
 (*) Names of the files are opposite for notebooks because originally we chose to perform second part of the predictive analysis before the first part as stated in the prospectus. We changed that order for the report to have better logic flow. Here, the readme explanation agrees with the report except that we did not fix the notebook names.
