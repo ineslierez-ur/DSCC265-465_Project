@@ -42,9 +42,11 @@ For part 2, the data sets used are: `X_same_with_pcs.csv`, `X_same_with_location
 ## a) For same data from EDA:
 
 ### Prediction_2_not_normalized_no_location.ipynb (*)
+
 Not normalized features from EDA, with Ridge regression and Random Forest, metrics comparison are in the Excel table.
 
 ### prediction_2_normalized_no_location.ipynb
+
 Normalized features from EDA, with Ridge regression and Random Forest, metrics comparison are in the Excel table.
 
 ## b) For same data but including location:
@@ -57,7 +59,7 @@ Not normalized data including features from EDA and location, with Ridge regress
 
 Normalized data including features from EDA and location, with Ridge regression and Random Forest, metrics comparison are in the Excel table.
 
-## 2.2) Predictive Models Part 2:
+## 2.2) Predictive Models Part 2: Non-Interpretable
 
 ## a) For same data:
 
@@ -110,6 +112,16 @@ While preparing the data before building accuracy-focused predictive models, we 
 ### Prediction_Part1_data_preparation.ipynb
 
 This notebook prepares the data to be fed into the predictive models that assumes no prior knowledge or analysis about the data. The output files are the file that contains the target variable and the file that contains all the explanatory features: . We also add columnsfor the 3 principal components returned by dimensionality methods including PCA, spectral embedding, and t-SNE.
+
+
+## 2.3) Ensemble Learning to combine the two:
+
+Here, we combine the best models returned by each part of the predictive analysis to have even better predictions. We weight the prediction set returned by each method inversely with its RMSE value and take the weighted average. For part 1, the best models returned are for non-normalized data sets so we include them for the ensemble learning while for part 2, the best models returned are when we include PCs as features so we follow from them.
+
+## a) Without location:
+
+
+## a) With location:
 
 
 (*) Names of the files are opposite for notebooks because originally we chose to perform second part of the predictive analysis before the first part as stated in the prospectus. We changed that order for the report to have better logic flow. Here, the readme explanation agrees with the report except that we did not fix the notebook names.
