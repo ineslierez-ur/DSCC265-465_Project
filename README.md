@@ -33,18 +33,37 @@ The generated data found in `./generated-data/` directory will be used in the re
 
 The input is the data file returned by the explanatory analysis. The outputs are 5 versions of the data: `X_same_notnormalized.csv` is the given data without location, `X_same_notnormalized_withlocation.csv`is the given data with location, `X_same.csv` is the given data without location but normalized, `X_same_with_pcs.csv` is the given data without location but normalized and includes principal components, `X_same_with_location.csv` is `X_same.csv` with location. Actually, `X_same_with_pcs.csv` is produced later by Prediction_Part1_data_preparation_same.ipynb notebook.
 
-For part 1, the data sets used are: `X_same_with_pcs.csv`, `X_same_with_location.csv`, and the raw data from Kaggle.
+For part 1, the data sets used are: `X_same_notnormalized.csv` and `X_same_notnormalized_withlocation.csv`.
 
-For part 2, the data sets used are: `X_same_notnormalized.csv` and `X_same_notnormalized_withlocation.csv`.
+For part 2, the data sets used are: `X_same_with_pcs.csv`, `X_same_with_location.csv`, and the raw data from Kaggle.
 
+## 2.1) Predictive Models Part 1: Interpretable
 
-## 2.1) Predictive Models Part 1:
+## a) For same data from EDA:
+
+### Prediction_2_not_normalized_no_location.ipynb (*)
+Not normalized features from EDA, with Ridge regression and Random Forest, metrics comparison are in the Excel table.
+
+### prediction_2_normalized_no_location.ipynb
+Normalized features from EDA, with Ridge regression and Random Forest, metrics comparison are in the Excel table.
+
+## b) For same data but including location:
+
+### prediction_2_not_normalized_with_location.ipynb
+
+Not normalized data including features from EDA and location, with Ridge regression and Random Forest, metrics comparison are in the Excel table.
+
+### prediction_2_normalized_with_location.ipynb
+
+Normalized data including features from EDA and location, with Ridge regression and Random Forest, metrics comparison are in the Excel table.
+
+## 2.2) Predictive Models Part 2:
 
 ## a) For same data:
 
 We use the data cleaned by the explanatory analysis. So the features included are only the ones that have correlation less than 0.6 with one another. The location related columns are removed and the data is normalized. The input file name is `X_same_with_pcs.csv` and it is obtained by the preparing_data notebook.
 
-### Prediction_Part1_data_preparation_same.ipynb
+### Prediction_Part1_data_preparation_same.ipynb(*)
 
 We prepare the data for predictive analysis by adding the features obtained by dimensionality reduction techniques of PCA, spectral embedding, and t-SNE. The output file is `X_same_with_pcs.csv` and it becomes the input file for the rest of the analysis.
 
@@ -92,18 +111,5 @@ While preparing the data before building accuracy-focused predictive models, we 
 
 This notebook prepares the data to be fed into the predictive models that assumes no prior knowledge or analysis about the data. The output files are the file that contains the target variable and the file that contains all the explanatory features: . We also add columnsfor the 3 principal components returned by dimensionality methods including PCA, spectral embedding, and t-SNE.
 
-## 2.2) Predictive Models Part 2:
 
-## a) For same data:
-
-### Prediction_2_not_normalized_no_location.ipynb
-Not normalized features from EDA, with Ridge regression and Random Forest, metrics comparison are in the slides
-
-### prediction_2_normalized_no_location.ipynb
-Normalized features from EDA, with Ridge regression and Random Forest, metrics comparison are in the slides
-
-## b) For same data but including location:
-
-### prediction_2_not_normalized_with_location.ipynb
-
-Not normalized data including features from EDA and location, with Ridge regression and Random Forest, metrics comparison are in the slides
+(*) Names of the files are opposite for notebooks because originally we chose to perform second part of the predictive analysis before the first part as stated in the prospectus. We changed that order for the report to have better logic flow. Here, the readme explanation agrees with the report except that we did not fix the notebook names.
